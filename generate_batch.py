@@ -40,6 +40,8 @@ if __name__ == '__main__':
 
     # Iterates from initial seed till the amount of samples
     for i in range(initial_seed, initial_seed + batch_size):
+        print(f'Generating CryptoMeleon #{i} ...')
+
         # Loads the image
         im_array = im.load_image(input_image)
 
