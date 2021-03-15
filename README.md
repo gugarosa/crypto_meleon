@@ -1,6 +1,6 @@
 # CryptoMeleon
 
-*This repository is a simple automation used to create [CryptoMeleon](https://opensea.io/collection/cryptomeleon) NFT assets.
+*This repository is a simple automation used to create [CryptoMeleon](https://opensea.io/collection/cryptomeleon) NFT assets.*
 
 ---
 
