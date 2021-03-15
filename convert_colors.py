@@ -11,8 +11,7 @@ def get_arguments():
 
     """
 
-    parser = argparse.ArgumentParser(
-        usage='Converts the desired colors from a CryptoMeleon.')
+    parser = argparse.ArgumentParser(usage='Converts the desired colors from a CryptoMeleon.')
 
     parser.add_argument('input_image', help='Input .png image', type=str)
 
@@ -62,5 +61,5 @@ if __name__ == '__main__':
     i.replace_color(im_array, '#d77641', back)
     i.replace_color(im_array, '#be4b30', belly)
 
-    # Saves output image
+    # Saves the output image
     i.save_image(im_array, output_image)

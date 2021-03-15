@@ -43,6 +43,29 @@ def save_image(array, output_path):
     im.save(output_path)
 
 
+def random_color(seed=0):
+    """Generates a random color based on input seed.
+
+    Args:
+        seed (int): Seed to be used as generator.
+    
+    Returns:
+        Hexdecimal and a tuple of RGB from the generated color.
+
+    """
+
+    # Defines the numpy seed
+    np.random.seed(seed)
+
+    # Generates the RGB
+    r, g, b = list((np.random.random(size=3) * 256).astype('int'))
+
+    # Converts the RGB into a hexdecimal value
+    hex_color = c.rgb2hex(r, g, b)
+
+    return hex_color, (r, g, b)
+
+
 def replace_color(array, input_color, output_color):
     """Replaces the array's color with a new given one.
 
