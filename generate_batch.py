@@ -56,5 +56,3 @@ if __name__ == '__main__':
 
         # Saves the output image
         im.save_image(im_array, f'{input_image.split(".")[0]}_{i}.png')
-
-        

@@ -1,3 +1,5 @@
+"""Module to perform image-based operations."""
+
 import numpy as np
 from PIL import Image
 
@@ -48,7 +50,7 @@ def random_color(seed=0):
 
     Args:
         seed (int): Seed to be used as generator.
-    
+
     Returns:
         Hexdecimal and a tuple of RGB from the generated color.
 

@@ -28,6 +28,14 @@ python convert_colors.py -h
 
 *Note that `-h` invokes the script helper, which assists users in employing the appropriate parameters.*
 
+### Generate Batch of CryptoMeleons
+
+Additionally, it is possible to generate a batch of CryptoMeleons using random seeding and API color-requesting. To fulfill this purpose, just use the following script:
+
+```Python
+python generate_batch.py -h
+```
+
 ---
 
 ## Support

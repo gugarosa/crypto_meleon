@@ -1,3 +1,5 @@
+"""Module to request information from APIs."""
+
 import requests
 
 
