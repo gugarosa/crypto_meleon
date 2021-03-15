@@ -19,9 +19,9 @@ def get_arguments():
 
     parser.add_argument('input_image', help='Input .png image', type=str)
 
-    parser.add_argument('initial_seed', help='Initial seed value', type=int)
+    parser.add_argument('-initial_seed', help='Initial seed value', type=int, default=0)
 
-    parser.add_argument('batch_size', help='Size of batch', type=int)
+    parser.add_argument('-batch_size', help='Size of batch', type=int, default=1)
 
     parser.add_argument('-mode', help='Generation mode', type=str, default='monochrome')
 
